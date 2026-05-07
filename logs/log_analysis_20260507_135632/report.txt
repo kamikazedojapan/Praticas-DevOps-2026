@@ -1,0 +1,29 @@
+===== RELATÒRIO DE ANALISE DE LOG =====
+Data: Thu May  7 13:56:32 -03 2026
+
+Total de IPs únicos:
+40
+
+Top 10 IPs únicos
+10
+
+Métodos HTTP:
+     26 GET
+      7 PUT
+      5 DELETE
+      2 POST
+
+Requisições perigosas (DELETE/PUT):
+12
+
+Top URLs:
+      8 /search/tag/list
+      7 /wp-content
+      6 /list
+      5 /posts/posts/explore
+      5 /explore
+      3 /app/main/posts
+      2 /wp-admin
+      1 /apps/cart.jsp?appID=7706
+      1 /apps/cart.jsp?appID=6792
+      1 /apps/cart.jsp?appID=6082

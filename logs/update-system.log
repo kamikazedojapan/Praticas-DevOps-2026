@@ -1,0 +1,256 @@
+[2026-04-29 19:34:33] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Erro: Não foi possível abrir arquivo de trava /var/lib/apt/lists/lock - open (13: Permissão negada)
+Erro: Não é possível travar o diretório /var/lib/apt/lists/
+Aviso: Problema ao remover o arquivo /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permissão negada)
+Aviso: Problema ao remover o arquivo /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permissão negada)
+[2026-04-29 19:34:33] [ERROR] Falha no apt update.
+[2026-04-29 19:35:11] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Erro: Não foi possível abrir arquivo de trava /var/lib/apt/lists/lock - open (13: Permissão negada)
+Erro: Não é possível travar o diretório /var/lib/apt/lists/
+Aviso: Problema ao remover o arquivo /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permissão negada)
+Aviso: Problema ao remover o arquivo /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permissão negada)
+[2026-04-29 19:35:11] [ERROR] Falha no apt update.
+[2026-04-29 19:37:47] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Erro: Não foi possível abrir arquivo de trava /var/lib/apt/lists/lock - open (13: Permissão negada)
+Erro: Não é possível travar o diretório /var/lib/apt/lists/
+Aviso: Problema ao remover o arquivo /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permissão negada)
+Aviso: Problema ao remover o arquivo /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permissão negada)
+[2026-04-29 19:37:47] [ERROR] Falha no apt update.
+[2026-04-29 19:38:15] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Erro: Não foi possível abrir arquivo de trava /var/lib/apt/lists/lock - open (13: Permissão negada)
+Erro: Não é possível travar o diretório /var/lib/apt/lists/
+Aviso: Problema ao remover o arquivo /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permissão negada)
+Aviso: Problema ao remover o arquivo /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permissão negada)
+[2026-04-29 19:38:15] [ERROR] Falha no apt update.
+[2026-04-29 19:43:58] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Atingido:1 http://br.archive.ubuntu.com/ubuntu questing InRelease
+Obter:2 http://br.archive.ubuntu.com/ubuntu questing-updates InRelease [136 kB]
+Atingido:3 http://br.archive.ubuntu.com/ubuntu questing-backports InRelease
+Obter:4 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 Packages [401 kB]
+Obter:5 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 c-n-f Metadata [9.380 B]
+Obter:6 http://br.archive.ubuntu.com/ubuntu questing-updates/universe amd64 Packages [301 kB]
+Obter:7 http://br.archive.ubuntu.com/ubuntu questing-updates/universe amd64 c-n-f Metadata [7.348 B]
+Atingido:8 http://security.ubuntu.com/ubuntu questing-security InRelease
+Obtidos 855 kB em 6s (142 kB/s)
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+47 pacotes podem ser atualizados. Execute 'apt list --upgradable' para vê-los.
+[2026-04-29 19:43:58] [INFO] Repositórios atualizados com sucesso.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+Calculando atualização...
+Os seguintes pacotes foram automaticamente instalados e não são mais requeridos:
+  g++-14                   libclang1-19       libsframe1
+  g++-14-x86-64-linux-gnu  libhidapi-hidraw0  libstdc++-14-dev
+  gnupg-l10n               libllvm18          libsysmetrics1
+  libabsl20230802          libllvm19          libxatracker2
+  libclang-cpp18           libmanette-0.2-0
+Use 'sudo apt autoremove' para removê-los.
+
+Atualizando:
+  linux-firmware  thermald  ubuntu-pro-client  ubuntu-pro-client-l10n
+
+Não atualizando:
+  dirmngr                       gnome-shell-common  libgtk-4-1
+  gdm3                          gnome-terminal      libgtk-4-bin
+  gir1.2-adw-1                  gnupg               libgtkmm-4.0-0
+  gir1.2-gdm-1.0                gnupg-utils         libnautilus-extension4
+  gir1.2-glib-2.0               gpg                 mutter-common
+  gir1.2-gtk-4.0                gpg-agent           mutter-common-bin
+  gjs                           gpg-wks-client      nautilus
+  gnome-control-center          gpgconf             nautilus-data
+  gnome-control-center-data     gpgsm               open-vm-tools
+  gnome-remote-desktop          gpgv                open-vm-tools-desktop
+  gnome-session-bin             libadwaita-1-0      ubuntu-desktop-minimal
+  gnome-session-common          libgdm1             ubuntu-session
+  gnome-settings-daemon         libglib2.0-0t64     yaru-theme-gnome-shell
+  gnome-settings-daemon-common  libglib2.0-bin
+  gnome-shell                   libgnome-menu-3-0
+
+Resumo:
+  Atualizando: 4, Instalando: 0, Removendo: 0, Não atualizando: 43
+  Tamanho de download: 650 MB / 650 MB
+  Espaço necessário: 775 kB / 19,6 GB disponível
+
+Obter:1 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 linux-firmware all 20250901.git993ff19b-0ubuntu1.11 [650 MB]
+Obter:2 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 thermald amd64 2.5.9-1ubuntu0.3 [222 kB]
+Obtidos 558 MB em 34s (16,4 MB/s)
+(Lendo banco de dados ... (Lendo banco de dados ... 5%(Lendo banco de dados ... 10%(Lendo banco de dados ... 15%(Lendo banco de dados ... 20%(Lendo banco de dados ... 25%(Lendo banco de dados ... 30%(Lendo banco de dados ... 35%(Lendo banco de dados ... 40%(Lendo banco de dados ... 45%(Lendo banco de dados ... 50%(Lendo banco de dados ... 55%(Lendo banco de dados ... 60%(Lendo banco de dados ... 65%(Lendo banco de dados ... 70%(Lendo banco de dados ... 75%(Lendo banco de dados ... 80%(Lendo banco de dados ... 85%(Lendo banco de dados ... 90%(Lendo banco de dados ... 95%(Lendo banco de dados ... 100%(Lendo banco de dados ... 227582 arquivos e diretórios atualmente instalados).
+Preparando para desempacotar .../ubuntu-pro-client-l10n_37.2ubuntu~25.10_amd64.deb ...
+Desempacotando ubuntu-pro-client-l10n (37.2ubuntu~25.10) sobre (37.1ubuntu0~25.10) ...
+Preparando para desempacotar .../ubuntu-pro-client_37.2ubuntu~25.10_amd64.deb ...
+Desempacotando ubuntu-pro-client (37.2ubuntu~25.10) sobre (37.1ubuntu0~25.10) ...
+Preparando para desempacotar .../linux-firmware_20250901.git993ff19b-0ubuntu1.11_all.deb ...
+Desempacotando linux-firmware (20250901.git993ff19b-0ubuntu1.11) sobre (20250901.git993ff19b-0ubuntu1.10) ...
+Preparando para desempacotar .../thermald_2.5.9-1ubuntu0.3_amd64.deb ...
+Desempacotando thermald (2.5.9-1ubuntu0.3) sobre (2.5.9-1ubuntu0.1) ...
+Configurando linux-firmware (20250901.git993ff19b-0ubuntu1.11) ...
+Configurando thermald (2.5.9-1ubuntu0.3) ...
+Configurando ubuntu-pro-client (37.2ubuntu~25.10) ...
+Instalando nova versão do arquivo de configuração /etc/apparmor.d/ubuntu_pro_esm_cache ...
+Configurando ubuntu-pro-client-l10n (37.2ubuntu~25.10) ...
+Processando gatilhos para dbus (1.16.2-2ubuntu2) ...
+Processando gatilhos para man-db (2.13.1-1) ...
+Processando gatilhos para initramfs-tools (0.150ubuntu3.1) ...
+update-initramfs: Generating /boot/initrd.img-6.17.0-22-generic
+[2026-04-29 19:43:58] [INFO] Sistema atualizado com sucesso.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+[2026-04-29 19:43:58] [INFO] Limpeza concluída.
+[2026-04-29 19:43:58] [INFO] Processo finalizado com sucesso!
+[2026-05-07 13:37:40] [ERROR] Este script precisa ser executado como root!
+[2026-05-07 13:37:54] [INFO] Iniciando atualização do sistema...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Obter:1 http://security.ubuntu.com/ubuntu questing-security InRelease [136 kB]
+Obter:2 http://security.ubuntu.com/ubuntu questing-security/main amd64 Packages [314 kB]
+Obter:3 http://security.ubuntu.com/ubuntu questing-security/main Translation-en [85,0 kB]
+Obter:4 http://security.ubuntu.com/ubuntu questing-security/main amd64 Components [3.164 B]
+Atingido:5 http://br.archive.ubuntu.com/ubuntu questing InRelease
+Obter:6 http://security.ubuntu.com/ubuntu questing-security/main amd64 c-n-f Metadata [7.356 B]
+Obter:7 http://security.ubuntu.com/ubuntu questing-security/restricted amd64 Packages [223 kB]
+Obter:8 http://br.archive.ubuntu.com/ubuntu questing-updates InRelease [136 kB]
+Obter:9 http://security.ubuntu.com/ubuntu questing-security/restricted Translation-en [52,2 kB]
+Obter:10 http://security.ubuntu.com/ubuntu questing-security/universe amd64 Packages [243 kB]
+Obter:11 http://br.archive.ubuntu.com/ubuntu questing-backports InRelease [133 kB]
+Obter:12 http://security.ubuntu.com/ubuntu questing-security/universe Translation-en [64,7 kB]
+Obter:13 http://security.ubuntu.com/ubuntu questing-security/universe amd64 Components [30,6 kB]
+Obter:14 http://security.ubuntu.com/ubuntu questing-security/universe amd64 c-n-f Metadata [6.172 B]
+Obter:15 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 Packages [421 kB]
+Obter:16 http://br.archive.ubuntu.com/ubuntu questing-updates/main Translation-en [115 kB]
+Obter:17 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 Components [58,0 kB]
+Obter:18 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 c-n-f Metadata [9.608 B]
+Obter:19 http://br.archive.ubuntu.com/ubuntu questing-updates/restricted amd64 Packages [242 kB]
+Obter:20 http://br.archive.ubuntu.com/ubuntu questing-updates/restricted Translation-en [55,9 kB]
+Obter:21 http://br.archive.ubuntu.com/ubuntu questing-updates/universe amd64 Packages [308 kB]
+Obter:22 http://br.archive.ubuntu.com/ubuntu questing-updates/universe Translation-en [93,7 kB]
+Obter:23 http://br.archive.ubuntu.com/ubuntu questing-updates/universe amd64 Components [60,7 kB]
+Obter:24 http://br.archive.ubuntu.com/ubuntu questing-updates/universe amd64 c-n-f Metadata [7.376 B]
+Obter:25 http://br.archive.ubuntu.com/ubuntu questing-updates/multiverse amd64 Components [944 B]
+Obter:26 http://br.archive.ubuntu.com/ubuntu questing-backports/universe amd64 Components [5.744 B]
+Obtidos 2.812 kB em 6s (452 kB/s)
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+79 pacotes podem ser atualizados. Execute 'apt list --upgradable' para vê-los.
+[2026-05-07 13:37:54] [INFO] Repositórios atualizados com sucesso.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+Calculando atualização...
+Os seguintes pacotes foram automaticamente instalados e não são mais requeridos:
+  g++-14                   libclang1-19       libsframe1
+  g++-14-x86-64-linux-gnu  libhidapi-hidraw0  libstdc++-14-dev
+  gnupg-l10n               libllvm18          libsysmetrics1
+  libabsl20230802          libllvm19          libwoff1
+  libclang-cpp18           libmanette-0.2-0   libxatracker2
+Use 'sudo apt autoremove' para removê-los.
+
+Atualizando:
+  apache2                       libjavascriptcoregtk-6.0-1
+  apache2-bin                   libkmod2
+  apache2-data                  liblcms2-2
+  apache2-utils                 liblcms2-utils
+  bpftool                       libnghttp2-14
+  curl                          libopenjp2-7
+  distro-info-data              libpng16-16t64
+  dpkg                          libwebkit2gtk-4.1-0
+  dpkg-dev                      libwebkitgtk-6.0-4
+  gir1.2-javascriptcoregtk-4.1  linux-generic-hwe-24.04
+  gir1.2-webkit2-4.1            linux-headers-generic-hwe-24.04
+  kmod                          linux-image-generic-hwe-24.04
+  libcurl3t64-gnutls            linux-libc-dev
+  libcurl4t64                   linux-perf
+  libdpkg-perl                  linux-tools-common
+  libeditorconfig0              sed
+  libjavascriptcoregtk-4.1-0
+
+Instalando dependências:
+  linux-headers-6.17.0-23          linux-modules-6.17.0-23-generic
+  linux-headers-6.17.0-23-generic  linux-tools-6.17.0-23
+  linux-image-6.17.0-23-generic    linux-tools-6.17.0-23-generic
+
+Pacotes sugeridos:
+  linux-tools
+
+Ainda não atualizando devido ao faseamento:
+  gdm3            gnome-shell-common   ubuntu-release-upgrader-core
+  gir1.2-gdm-1.0  libgdm1              ubuntu-release-upgrader-gtk
+  gnome-shell     python3-distupgrade
+
+Não atualizando:
+  dirmngr                       gnupg              libgtk-4-bin
+  gir1.2-adw-1                  gnupg-utils        libgtkmm-4.0-0
+  gir1.2-glib-2.0               gpg                libnautilus-extension4
+  gir1.2-gtk-4.0                gpg-agent          mutter-common
+  gjs                           gpg-wks-client     mutter-common-bin
+  gnome-control-center          gpgconf            nautilus
+  gnome-control-center-data     gpgsm              nautilus-data
+  gnome-remote-desktop          gpgv               open-vm-tools
+  gnome-session-bin             libadwaita-1-0     open-vm-tools-desktop
+  gnome-session-common          libglib2.0-0t64    ubuntu-desktop-minimal
+  gnome-settings-daemon         libglib2.0-bin     ubuntu-session
+  gnome-settings-daemon-common  libgnome-menu-3-0  yaru-theme-gnome-shell
+  gnome-terminal                libgtk-4-1
+
+Resumo:
+  Atualizando: 33, Instalando: 6, Removendo: 0, Não atualizando: 46
+32 atualizações de segurança de LTS
+  Tamanho de download: 283 MB
+  Espaço necessário: 422 MB / 19,6 GB disponível
+
+Obter:1 http://security.ubuntu.com/ubuntu questing-security/main amd64 dpkg amd64 1.22.21ubuntu3.2 [1.297 kB]
+Obter:2 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 sed amd64 4.9-2ubuntu0.25.10.1 [196 kB]
+Obter:3 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 curl amd64 8.14.1-2ubuntu1.3 [259 kB]
+Obter:4 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libnghttp2-14 amd64 1.64.0-1.1ubuntu1.1 [75,8 kB]
+Obter:5 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libcurl4t64 amd64 8.14.1-2ubuntu1.3 [414 kB]
+Obter:6 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 apache2 amd64 2.4.64-1ubuntu3.4 [90,3 kB]
+Obter:7 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 apache2-bin amd64 2.4.64-1ubuntu3.4 [1.357 kB]
+Obter:8 http://security.ubuntu.com/ubuntu questing-security/main amd64 libpng16-16t64 amd64 1.6.50-1ubuntu0.5 [195 kB]
+Obter:9 http://security.ubuntu.com/ubuntu questing-security/main amd64 dpkg-dev all 1.22.21ubuntu3.2 [1.089 kB]
+Obter:10 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 apache2-data all 2.4.64-1ubuntu3.4 [163 kB]
+Obter:11 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 apache2-utils amd64 2.4.64-1ubuntu3.4 [101 kB]
+Obter:12 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 distro-info-data all 0.66ubuntu0.2 [7.056 B]
+Obter:13 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 kmod amd64 34.2-2ubuntu1.1 [101 kB]
+Obter:14 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libkmod2 amd64 34.2-2ubuntu1.1 [50,9 kB]
+Obter:15 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 bpftool amd64 7.7.0+6.17.0-23.23 [1.004 kB]
+Obter:16 http://security.ubuntu.com/ubuntu questing-security/main amd64 libdpkg-perl all 1.22.21ubuntu3.2 [281 kB]
+Obter:17 http://security.ubuntu.com/ubuntu questing-security/main amd64 liblcms2-2 amd64 2.16-2ubuntu0.2 [170 kB]
+Obter:18 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 gir1.2-webkit2-4.1 amd64 2.52.3-0ubuntu0.25.10.1 [105 kB]
+Obter:19 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 gir1.2-javascriptcoregtk-4.1 amd64 2.52.3-0ubuntu0.25.10.1 [38,6 kB]
+Obter:20 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libwebkit2gtk-4.1-0 amd64 2.52.3-0ubuntu0.25.10.1 [25,3 MB]
+Obter:21 http://security.ubuntu.com/ubuntu questing-security/main amd64 liblcms2-utils amd64 2.16-2ubuntu0.2 [45,8 kB]
+Obter:22 http://security.ubuntu.com/ubuntu questing-security/main amd64 libopenjp2-7 amd64 2.5.3-2.1ubuntu0.1 [188 kB]
+Obter:23 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libjavascriptcoregtk-4.1-0 amd64 2.52.3-0ubuntu0.25.10.1 [8.080 kB]
+Obter:24 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libcurl3t64-gnutls amd64 8.14.1-2ubuntu1.3 [406 kB]
+Obter:25 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libeditorconfig0 amd64 0.12.9+~0.17.1-1ubuntu2.1 [15,3 kB]
+Obter:26 http://br.archive.ubuntu.com/ubuntu questing-updates/main amd64 libwebkitgtk-6.0-4 amd64 2.52.3-0ubuntu0.25.10.1 [25,1 MB]

@@ -1,0 +1,64 @@
+| Característica                   | Apache                         | Nginx                                  |
+| -------------------------------- | ------------------------------ | -------------------------------------- |
+| Arquitetura                      | Baseada em processos/threads   | Baseada em eventos assíncronos         |
+| Consumo de memória               | Maior em alto tráfego          | Menor e mais eficiente                 |
+| Desempenho com conteúdo estático | Bom                            | Excelente                              |
+| Escalabilidade                   | Boa, mas consome mais recursos | Muito alta                             |
+| Facilidade de configuração       | Mais simples para iniciantes   | Mais enxuto e performático             |
+| Suporte a `.htaccess`            | Sim                            | Não                                    |
+| Proxy reverso / Load Balancer    | Possui suporte                 | Muito eficiente                        |
+| Uso em aplicações modernas       | Muito utilizado                | Muito utilizado em grandes plataformas |
+
+Por que o Nginx é mais adequado?
+
+O Nginx foi projetado para lidar com milhares de conexões simultâneas utilizando uma arquitetura orientada a eventos (event-driven). Isso faz com que ele utilize menos memória e menos processamento mesmo sob grande carga.
+
+Como a plataforma da ScreenMatch servirá principalmente:
+
+páginas HTML;
+arquivos CSS e JavaScript;
+imagens;
+vídeos;
+
+o Nginx apresenta vantagens importantes:
+
+1. Melhor desempenho para conteúdo estático
+
+O Nginx é extremamente otimizado para entrega de arquivos estáticos, conseguindo responder requisições com maior velocidade.
+
+2. Menor consumo de recursos
+
+Em cenários com muitos acessos simultâneos, o Apache tende a consumir mais memória por criar múltiplos processos ou threads. O Nginx consegue manter milhares de conexões abertas com baixo consumo.
+
+3. Maior escalabilidade
+
+Para aplicações que esperam crescimento rápido e muitos usuários simultâneos, o Nginx escala melhor.
+
+4. Excelente para streaming e proxy reverso
+
+O Nginx é muito utilizado em plataformas modernas justamente por lidar bem com tráfego intenso, balanceamento de carga e distribuição de mídia.
+
+Quando o Apache seria vantajoso?
+
+O Apache ainda é muito utilizado porque:
+
+possui grande compatibilidade;
+oferece suporte ao .htaccess;
+facilita configurações individuais por diretório;
+é excelente para aplicações PHP tradicionais.
+
+Ele costuma ser mais indicado quando o foco é:
+
+hospedagem compartilhada;
+aplicações dinâmicas tradicionais;
+necessidade frequente de configurações locais por diretório.
+Conclusão
+
+Para a plataforma ScreenMatch, o Nginx é a melhor escolha porque:
+
+entrega conteúdo estático com maior desempenho;
+suporta alto volume de acessos simultâneos;
+consome menos recursos do servidor;
+oferece melhor escalabilidade para crescimento futuro.
+
+Por esses motivos, o Nginx é amplamente utilizado em grandes plataformas modernas de streaming e distribuição de conteúdo.
